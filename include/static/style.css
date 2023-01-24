@@ -1,0 +1,115 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+body{
+    text-align: center;
+}
+
+.open{
+    color: #ffffff;
+    background: #1878F3;
+    width: 300px;
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 15px;
+    height: 37px;
+    margin: 10px 0px 5px 0px;
+    padding: 5px 0px 5px 0px ;
+}
+p{
+    font-size: 12px;
+    font-family: Arial;
+    margin-top: -10px;
+}
+a{
+    font-family: Arial;
+    color: #1878F3;
+    margin-top: 10px;
+    font-size: 12px;
+}
+input{
+    padding: 10px;
+    width: 270px;
+    height: 20px;
+    margin-top: 5px;
+    border: solid 0.5px #B8BEC3;
+    border-radius: 5px;
+}
+.senha {
+    background: #F5F6F8;
+}
+.email {
+    background: #F5F6F8;
+}
+img{
+    margin: 5px 0px -10px 0px;
+    width: 120px;
+}
+.divisor1{
+    background: #EDEDEF;
+    width: 120px;
+    height: 1px;
+    margin: 30px 0px 0px 10px;
+    border: solid 0.1 grey;
+    
+}
+.divisor2{
+    background: #EDEDEF;
+    width: 120px;
+    height: 1px;
+    margin:-5px 0px 10px 180px;
+    border:solid 0.1 grey;
+}
+.new{
+    color: #ffffff;
+    background: #14A014;
+    margin-top: 10px;
+    width: 120px;
+    height: 30px;
+    padding: 5px 0px 5px 0px ;
+    font-family: Arial,Monospace;
+    font-size: 13px;
+    font-weight: bold;
+  
+}
+.popup{
+    font-family: Arial, Monospace;
+    font-size: 12px;
+    margin:-25px 0px 0px 15px;
+    color: #164E77;
+}
+.bgpopup{
+    background: #FFFBE2;
+    margin: 0px;
+    width: 100%;
+    height: 40px;
+}
+.phone{
+    width: 35px;
+    margin: 0px 0px 0px -275px;
+}
+
+.langs1{
+
+    margin: 80px 0px 0px 25px;
+    width: 120px;
+    padding: 2px 2px 2px 2px;
+}
+
+.br{
+    color: grey;
+    font-size: 10px;
+    font-weight: bold;
+}
+.langs2{
+    
+    width: 120px;
+    margin: -60px 0px 0px 170px;
+    text-align: center;
+    
+}
+.lang{
+    color:#164E77;
+    font-size: 10px;
+}

